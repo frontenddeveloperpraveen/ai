@@ -10,7 +10,7 @@ try:
         image = image.filter(ImageFilter.GaussianBlur(radius=2))
         image.save('APP/static/1.png')
     def Gen(prompt):
-        API_KEY = 'MfOML6dxJBzrSdwbQOcgRUCrOMmCHMXVG5r204NVUbaj700B1CEA7u8B'
+        API_KEY = '' #Your API KEY
         URL = 'https://api.pexels.com/v1/search'
         params = {
             'query': prompt,
